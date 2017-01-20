@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "78DDA86E1E322CF700F610E6"
-               BuildableName = "testing.app"
-               BlueprintName = "testing"
-               ReferencedContainer = "container:testing.xcodeproj">
+               BuildableName = "YoutubeClone.app"
+               BlueprintName = "YoutubeClone"
+               ReferencedContainer = "container:YoutubeClone.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "78DDA8861E322CF800F610E6"
-               BuildableName = "testingTests.xctest"
-               BlueprintName = "testingTests"
-               ReferencedContainer = "container:testing.xcodeproj">
+               BuildableName = "YoutubeCloneTests.xctest"
+               BlueprintName = "YoutubeCloneTests"
+               ReferencedContainer = "container:YoutubeClone.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "78DDA8911E322CF800F610E6"
-               BuildableName = "testingUITests.xctest"
-               BlueprintName = "testingUITests"
-               ReferencedContainer = "container:testing.xcodeproj">
+               BuildableName = "YoutubeCloneUITests.xctest"
+               BlueprintName = "YoutubeCloneUITests"
+               ReferencedContainer = "container:YoutubeClone.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "78DDA86E1E322CF700F610E6"
-            BuildableName = "testing.app"
-            BlueprintName = "testing"
-            ReferencedContainer = "container:testing.xcodeproj">
+            BuildableName = "YoutubeClone.app"
+            BlueprintName = "YoutubeClone"
+            ReferencedContainer = "container:YoutubeClone.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "78DDA86E1E322CF700F610E6"
-            BuildableName = "testing.app"
-            BlueprintName = "testing"
-            ReferencedContainer = "container:testing.xcodeproj">
+            BuildableName = "YoutubeClone.app"
+            BlueprintName = "YoutubeClone"
+            ReferencedContainer = "container:YoutubeClone.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "78DDA86E1E322CF700F610E6"
-            BuildableName = "testing.app"
-            BlueprintName = "testing"
-            ReferencedContainer = "container:testing.xcodeproj">
+            BuildableName = "YoutubeClone.app"
+            BlueprintName = "YoutubeClone"
+            ReferencedContainer = "container:YoutubeClone.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
