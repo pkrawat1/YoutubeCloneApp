@@ -10,6 +10,7 @@
 		7801D4CB1E3272580079D82F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801D4CA1E3272580079D82F /* HomeController.swift */; };
 		7801D4CE1E327DF80079D82F /* Extensions .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801D4CD1E327DF80079D82F /* Extensions .swift */; };
 		7801D4D11E327E9D0079D82F /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801D4D01E327E9D0079D82F /* VideoCell.swift */; };
+		7801D4D41E3281820079D82F /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801D4D31E3281820079D82F /* MenuBar.swift */; };
 		78DDA8731E322CF700F610E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DDA8721E322CF700F610E6 /* AppDelegate.swift */; };
 		78DDA8751E322CF700F610E6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DDA8741E322CF700F610E6 /* RootViewController.swift */; };
 		78DDA8771E322CF700F610E6 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DDA8761E322CF700F610E6 /* DataViewController.swift */; };
@@ -42,6 +43,7 @@
 		7801D4CA1E3272580079D82F /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		7801D4CD1E327DF80079D82F /* Extensions .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions .swift"; sourceTree = "<group>"; };
 		7801D4D01E327E9D0079D82F /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		7801D4D31E3281820079D82F /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 		78DDA86F1E322CF700F610E6 /* YoutubeClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DDA8721E322CF700F610E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78DDA8741E322CF700F610E6 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				7801D4CA1E3272580079D82F /* HomeController.swift */,
+				7801D4D31E3281820079D82F /* MenuBar.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			files = (
 				7801D4CE1E327DF80079D82F /* Extensions .swift in Sources */,
 				7801D4D11E327E9D0079D82F /* VideoCell.swift in Sources */,
+				7801D4D41E3281820079D82F /* MenuBar.swift in Sources */,
 				7801D4CB1E3272580079D82F /* HomeController.swift in Sources */,
 				78DDA8751E322CF700F610E6 /* RootViewController.swift in Sources */,
 				78DDA8791E322CF700F610E6 /* ModelController.swift in Sources */,
