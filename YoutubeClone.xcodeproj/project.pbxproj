@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7801D4CB1E3272580079D82F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801D4CA1E3272580079D82F /* ViewController.swift */; };
+		7801D4CB1E3272580079D82F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801D4CA1E3272580079D82F /* HomeController.swift */; };
+		7801D4CE1E327DF80079D82F /* Extensions .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801D4CD1E327DF80079D82F /* Extensions .swift */; };
+		7801D4D11E327E9D0079D82F /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801D4D01E327E9D0079D82F /* VideoCell.swift */; };
 		78DDA8731E322CF700F610E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DDA8721E322CF700F610E6 /* AppDelegate.swift */; };
 		78DDA8751E322CF700F610E6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DDA8741E322CF700F610E6 /* RootViewController.swift */; };
 		78DDA8771E322CF700F610E6 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DDA8761E322CF700F610E6 /* DataViewController.swift */; };
@@ -37,7 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7801D4CA1E3272580079D82F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7801D4CA1E3272580079D82F /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		7801D4CD1E327DF80079D82F /* Extensions .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions .swift"; sourceTree = "<group>"; };
+		7801D4D01E327E9D0079D82F /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 		78DDA86F1E322CF700F610E6 /* YoutubeClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DDA8721E322CF700F610E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78DDA8741E322CF700F610E6 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +84,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7801D4CC1E327DCC0079D82F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7801D4CD1E327DF80079D82F /* Extensions .swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		7801D4CF1E327E6C0079D82F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7801D4D01E327E9D0079D82F /* VideoCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7801D4D21E327EF70079D82F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7801D4CA1E3272580079D82F /* HomeController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		78DDA8661E322CF700F610E6 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +131,9 @@
 		78DDA8711E322CF700F610E6 /* youtube */ = {
 			isa = PBXGroup;
 			children = (
+				7801D4D21E327EF70079D82F /* Controller */,
+				7801D4CF1E327E6C0079D82F /* View */,
+				7801D4CC1E327DCC0079D82F /* Helpers */,
 				78DDA8721E322CF700F610E6 /* AppDelegate.swift */,
 				78DDA8741E322CF700F610E6 /* RootViewController.swift */,
 				78DDA8761E322CF700F610E6 /* DataViewController.swift */,
@@ -111,7 +142,6 @@
 				78DDA87D1E322CF800F610E6 /* Assets.xcassets */,
 				78DDA87F1E322CF800F610E6 /* LaunchScreen.storyboard */,
 				78DDA8821E322CF800F610E6 /* Info.plist */,
-				7801D4CA1E3272580079D82F /* ViewController.swift */,
 			);
 			name = youtube;
 			path = testing;
@@ -269,7 +299,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7801D4CB1E3272580079D82F /* ViewController.swift in Sources */,
+				7801D4CE1E327DF80079D82F /* Extensions .swift in Sources */,
+				7801D4D11E327E9D0079D82F /* VideoCell.swift in Sources */,
+				7801D4CB1E3272580079D82F /* HomeController.swift in Sources */,
 				78DDA8751E322CF700F610E6 /* RootViewController.swift in Sources */,
 				78DDA8791E322CF700F610E6 /* ModelController.swift in Sources */,
 				78DDA8771E322CF700F610E6 /* DataViewController.swift in Sources */,
