@@ -29,7 +29,7 @@ class MenuBar: UIView, UICollectionViewDataSource, UICollectionViewDelegate, UIC
         addConstraintsWithFormat(format:  "H:|[v0]|", views: collectionView)
         addConstraintsWithFormat(format: "V:|[v0]|", views: collectionView)
         
-        let selectedIndexPath = NSIndexPath(item: 0, section: 0) as! IndexPath
+        let selectedIndexPath = NSIndexPath(item: 0, section: 0) as IndexPath
         collectionView.selectItem(at: selectedIndexPath, animated: false, scrollPosition: [])
     }
     
