@@ -71,16 +71,16 @@ class VideoCell:  BaseCell  {
         }
     }
     
-    let thumbnailImageView: UIImageView = {
-        let imageView = UIImageView()
+    let thumbnailImageView: CustomImageView = {
+        let imageView = CustomImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
         imageView.image = UIImage(named: "taylor_swift_blank_space")
         return imageView
     }()
     
-    let userProfileImageView: UIImageView = {
-        let imageView = UIImageView()
+    let userProfileImageView: CustomImageView = {
+        let imageView = CustomImageView()
         imageView.image = UIImage(named: "taylor_swift_profile")
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true

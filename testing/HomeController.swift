@@ -42,7 +42,7 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
         
         let task = session.dataTask(with: urlRequest) { (data, response, error) -> Void in
             if (error != nil) {
-                print(error)
+                print(error!)
                 return
             }
                 
@@ -66,6 +66,9 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
                         video.channel = channel
                         
                         self.videos?.append(video)
+                    }
+                    
+                    DispatchQueue.main.async {
                         self.collectionView?.reloadData()
                     }
                     
