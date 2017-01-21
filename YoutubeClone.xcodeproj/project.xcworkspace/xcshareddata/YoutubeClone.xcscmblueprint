@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A8536415EEE130F731726AEEA66462975D3898AC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A8536415EEE130F731726AEEA66462975D3898AC" : 9223372036854775807,
+    "45024E8ED05FC03C7995460F240A80C891CA884F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "709F679F-84D3-4531-B82A-831BD2F4B273",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A8536415EEE130F731726AEEA66462975D3898AC" : "YoutubeClone\/",
+    "45024E8ED05FC03C7995460F240A80C891CA884F" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YoutubeClone",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YoutubeClone.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:pkrawat1\/ios-ui-experiments.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "45024E8ED05FC03C7995460F240A80C891CA884F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:pkrawat1\/YoutubeCloneApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A8536415EEE130F731726AEEA66462975D3898AC"
+    }
+  ]
+}
