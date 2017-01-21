@@ -247,6 +247,7 @@
 				TargetAttributes = {
 					78DDA86E1E322CF700F610E6 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QQ7G2P38XY;
 						ProvisioningStyle = Automatic;
 					};
 					78DDA8861E322CF800F610E6 = {
@@ -471,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QQ7G2P38XY;
 				INFOPLIST_FILE = testing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aviabird.testing;
@@ -483,6 +485,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QQ7G2P38XY;
 				INFOPLIST_FILE = testing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aviabird.testing;
